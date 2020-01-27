@@ -22,7 +22,7 @@ Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-wi
 Loading C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UnityEngine.CloudBuild.dll into Unity Child Domain
 Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll (this message is harmless)
 Loading C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll into Unity Child Domain
-- Completed reload, in  0.060 seconds
+- Completed reload, in  0.054 seconds
 Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on ReturnToMainMenu
@@ -37,21 +37,21 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.304300 ms
+UnloadTime: 0.801400 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1e188 -> priority: 1 
-  Thread -> id: 1bb88 -> priority: 1 
+  Thread -> id: 20e24 -> priority: 1 
+  Thread -> id: 1f2a8 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.212100 ms
+UnloadTime: 3.023200 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 419.
-Total: 0.308000 ms (FindLiveObjects: 0.029400 ms CreateObjectMapping: 0.010100 ms MarkObjects: 0.252400 ms  DeleteObjects: 0.015700 ms)
+Total: 0.260300 ms (FindLiveObjects: 0.042600 ms CreateObjectMapping: 0.013200 ms MarkObjects: 0.191400 ms  DeleteObjects: 0.012700 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.929900 ms
+UnloadTime: 1.941600 ms
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1465.
-Total: 0.596200 ms (FindLiveObjects: 0.068000 ms CreateObjectMapping: 0.039800 ms MarkObjects: 0.224400 ms  DeleteObjects: 0.263400 ms)
+Total: 0.511600 ms (FindLiveObjects: 0.040600 ms CreateObjectMapping: 0.018000 ms MarkObjects: 0.203400 ms  DeleteObjects: 0.249300 ms)
 
 Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Configuration.dll (this message is harmless)
 Platform assembly: C:\Users\ayush\Machine Learning\Self Driving Car\simulator-windows-64\Default Windows desktop 64-bit_Data\Managed\System.Xml.dll (this message is harmless)
@@ -64,64 +64,10 @@ Connection Open
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.160700 ms
+UnloadTime: 3.217000 ms
 
 Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 432.
-Total: 2.886900 ms (FindLiveObjects: 0.069300 ms CreateObjectMapping: 0.027300 ms MarkObjects: 0.636300 ms  DeleteObjects: 2.152600 ms)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
-  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
-  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
-  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
-  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
-  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
-UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
-UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
-<Enqueue>c__AnonStorey21:<>m__20()
-UnityMainThreadDispatcher:Update()
- 
-(Filename:  Line: -1)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.435300 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 958.
-Total: 0.438300 ms (FindLiveObjects: 0.056600 ms CreateObjectMapping: 0.014900 ms MarkObjects: 0.352400 ms  DeleteObjects: 0.014000 ms)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.697700 ms
-
-Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 432.
-Total: 1.160800 ms (FindLiveObjects: 0.024800 ms CreateObjectMapping: 0.011400 ms MarkObjects: 0.470100 ms  DeleteObjects: 0.654100 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.504700 ms
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1468.
-Total: 0.955000 ms (FindLiveObjects: 0.110300 ms CreateObjectMapping: 0.039300 ms MarkObjects: 0.503800 ms  DeleteObjects: 0.300800 ms)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Connection Open
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.674200 ms
-
-Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 435.
-Total: 2.356600 ms (FindLiveObjects: 0.027400 ms CreateObjectMapping: 0.014900 ms MarkObjects: 0.459000 ms  DeleteObjects: 1.854800 ms)
+Total: 2.570200 ms (FindLiveObjects: 0.023400 ms CreateObjectMapping: 0.011900 ms MarkObjects: 0.904200 ms  DeleteObjects: 1.630300 ms)
 
 NullReferenceException
   at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
